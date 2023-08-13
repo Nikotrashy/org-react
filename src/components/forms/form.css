@@ -14,3 +14,9 @@
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
+.form h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #212121;
+}
