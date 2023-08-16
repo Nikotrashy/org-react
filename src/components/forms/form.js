@@ -6,7 +6,9 @@ const Form = () => {
     <section className='form'>
       <form className='react__form'>
         <h2 className='form__title'>Rellena el formulario para crear el colaborador</h2>
-        <TextCamp />
+        <TextCamp titulo='Nombre' placeholder='Ingresar nombre'/>
+        <TextCamp titulo='Puesto' placeholder='Ingresar puesto'/>
+        <TextCamp titulo='Foto' placeholder='Ingresar enlace de foto'/>
       </form>
     </section>);
 };
